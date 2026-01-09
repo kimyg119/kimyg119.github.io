@@ -1,68 +1,44 @@
 ---
-permalink: /
-title: "Youngkyu Kim"
+layout: archive
+title: "Research"
+permalink: /research/
 author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
----
-
-**Robotics Researcher | Representation-Centric Robot Manipulation**
-
-I study scalable robot manipulation by redefining action learning as a problem of structured representation and data generation, rather than end-to-end policy optimization.
-
----
-
-## Research Keywords
-
-`Robot Manipulation` `Sim-Real Co-Training` `Articulated Objects` `Representation Learning` `Synthetic Data` `Video-based Perception`
-
----
-
-## Research Philosophy
-
-**Core Beliefs**
-
-- End-to-end policies fail to scale because they ignore *what should be represented*.
-- Simulation is valuable not for realism, but for providing *structured supervision*.
-- Generalization comes from *representation design*, not from more data alone.
-
-**Explicit Non-Interests**
-
-- Pure benchmark chasing
-- Raw RGB end-to-end imitation learning
-- Pose-only manipulation pipelines
-
 ---
 
 ## Research Interests
 
 ### Scalable Robot Manipulation
+
 - Data efficiency and generalization in manipulation
 - Learning across heterogeneous data distributions
 - Sim-Real-Generated data integration
 
 ### Representation-Centric Learning
+
 - Action-defining representations instead of policy learning
 - Progress-based, articulation-aware representations
 - Scale-invariant and structure-preserving embeddings
 
 ### Articulated Object Manipulation
+
 - Drawer, door, cabinet, articulated tools
 - Metric goals (e.g., "open 5cm", "30% progress")
 - Joint state, articulation constraints, motion limits
 
 ### Simulation as a Data Engine
+
 - Simulation for supervision, not realism
 - Joint values, articulation progress, motion constraints
 - Sim-and-Real Co-Training paradigms
 
 ### Video & Synthetic Data
+
 - Video generation for observation diversity
 - In-the-wild visual distribution expansion
 - Limits of generated video for action supervision
 
 ### 3D Object Flow & Part-level Motion
+
 - Part-level motion over absolute pose
 - Allowed motion subspace modeling
 - Flow-based articulation reasoning
@@ -102,3 +78,4 @@ My research focuses on scalable robot manipulation by shifting the learning targ
 - Articulated Progress Estimation
 - Representation Design for Action
 - Synthetic Data Pipelines
+
