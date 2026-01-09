@@ -13,28 +13,6 @@ I study scalable robot manipulation by redefining action learning as a problem o
 
 ---
 
-## Research Keywords
-
-`Robot Manipulation` `Sim-Real Co-Training` `Articulated Objects` `Representation Learning` `Synthetic Data` `Video-based Perception`
-
----
-
-## Research Philosophy
-
-**Core Beliefs**
-
-- End-to-end policies fail to scale because they ignore *what should be represented*.
-- Simulation is valuable not for realism, but for providing *structured supervision*.
-- Generalization comes from *representation design*, not from more data alone.
-
-**Explicit Non-Interests**
-
-- Pure benchmark chasing
-- Raw RGB end-to-end imitation learning
-- Pose-only manipulation pipelines
-
----
-
 ## Research Interests
 
 ### Scalable Robot Manipulation
@@ -66,26 +44,6 @@ I study scalable robot manipulation by redefining action learning as a problem o
 - Part-level motion over absolute pose
 - Allowed motion subspace modeling
 - Flow-based articulation reasoning
-
----
-
-## Research Themes
-
-### Theme 1: Sim-Real-Generated Data as a Unified Distribution
-
-Simulation data improves real-world performance even when visually mismatched. The key factor is structured, action-relevant supervision. The focus is on distribution expansion, not gap minimization.
-
-### Theme 2: Quantitative Articulation Representation
-
-Current models cannot execute metric language goals. I propose articulation progress as a learnable target. Simulation enables otherwise impossible annotations.
-
-### Theme 3: Video as Observation Augmentation
-
-Generated video cannot provide reliable action labels. It is used to expand visual and environmental diversity. Action is inferred via structured constraints, not direct regression.
-
-### Theme 4: Flow-based Motion Understanding
-
-Articulated objects are defined by motion constraints. Flow provides relative, constraint-aware motion cues. It is used as auxiliary signal, not primary supervision.
 
 ---
 
