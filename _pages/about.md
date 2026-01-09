@@ -11,6 +11,15 @@ I study **scalable robot learning** by integrating simulation, real-world data, 
 
 ---
 
+## Education
+
+**MS/PhD**: Department of Intelligent Mechatronics Engineering, Sejong University, (2025.03~)
+
+**BS**: School of Intelligent Mechatronics Engineering, Sejong University, (2019.03 ~ 2025.02)
+
+
+---
+
 ## Research Interests
 
 ### Data-Centric Robot Learning
